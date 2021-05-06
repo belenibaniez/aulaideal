@@ -1,0 +1,112 @@
+html{
+    font-size: 15px;
+}
+
+
+.bienvenidos{
+  background:url("../images/fondo-bienvenidos.jpg") ;
+  background-size: cover !important;
+  height:100vh;
+ overflow: hidden;
+
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+#menuprincipal{
+    clear:both;
+}
+
+.fixed-top{
+    background: rgba(0,0,0,0.70);
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 1rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+color: white;
+background: #F05F40;
+}
+
+.texto-bienvenido{
+  margin-top: 8rem;
+}
+.btn-primary{
+    background: #F05F40;
+    border: black;
+    transition: all .5s ease ;
+}
+
+
+.btn-secondary{
+    background: white;
+    color: #F17f66;;
+    border: black;
+    transition: all .5s ease ;
+}
+.btn-primary:hover{
+    background: #F17f66;
+    border: #F05F40;
+    
+}
+
+
+.quienes-somos{
+    background: #F05F40;
+    color: white;
+    overflow: hidden;
+}
+
+.servicios .fas {
+    color:#F05F40;
+    font-size:4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.portafolio{
+background: #424141;
+color: white;
+
+}
+
+
+.portafolio a{
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.portafolio img{
+    transition: all .3s;
+    min-width: 100%;
+}
+
+.portafolio a:hover img{
+    transform: scale(1.5);
+
+}
+
+.footer{
+    color: white;
+    background: #222222; 
+
+}
+
+@media(min-width:768px){
+    html{
+        font-size: 16px ;
+    }
+
+    .bienvenidos{
+        background:url("../images/fondo-bienvenido-grande.jpg") ;
+        background-size: cover !important;
+        height:100vh;
+       overflow: hidden;
+      
+      }
+}
